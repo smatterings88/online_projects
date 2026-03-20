@@ -1,0 +1,58 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-syne: 'Syne', ui-sans-serif, system-ui, sans-serif;
+  --font-dm: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  /* Theme tokens — swap these to retheme */
+  --c-bg: #0d0d0d;
+  --c-bg-elevated: #141414;
+  --c-accent: #c6f135;
+  --c-accent-muted: color-mix(in srgb, var(--c-accent) 18%, transparent);
+  --c-text: #fafafa;
+  --c-text-muted: #a3a3a3;
+  --c-text-faint: #737373;
+  --c-border: #262626;
+  --c-border-subtle: #1f1f1f;
+  --c-strike: #ef4444;
+  --c-blue-badge: #3b82f6;
+  --c-blue-badge-bg: color-mix(in srgb, var(--c-blue-badge) 14%, transparent);
+  --c-amber-badge: #f59e0b;
+  --c-amber-badge-bg: color-mix(in srgb, var(--c-amber-badge) 14%, transparent);
+  --c-nav-glass: color-mix(in srgb, var(--c-bg) 72%, transparent);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-dm), 'DM Sans', system-ui, sans-serif;
+  background: var(--c-bg);
+  color: var(--c-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(0.92);
+  }
+}
+
+.animate-pulse-dot {
+  animation: pulse-dot 1.6s ease-in-out infinite;
+}
