@@ -187,7 +187,7 @@ export default function LandingPage() {
         as="section"
       >
         <div className="mx-auto max-w-6xl">
-          <div className="inline-flex items-center gap-2 rounded-full border border-[var(--c-accent)]/35 bg-[var(--c-accent)]/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-[var(--c-accent)]">
+          <div className="inline-flex items-center gap-2 rounded-full border border-[var(--c-accent)]/35 bg-[var(--c-accent)]/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wide text-[var(--c-accent)]">
             <span
               className="h-2 w-2 rounded-full bg-[var(--c-accent)] animate-pulse-dot"
               aria-hidden
@@ -195,7 +195,7 @@ export default function LandingPage() {
             Now enrolling — Batch 1
           </div>
 
-          <h1 className="mt-8 font-syne text-[2.35rem] font-extrabold leading-[1.06] tracking-[-0.045em] text-[var(--c-text)] sm:text-5xl md:text-6xl lg:text-[4.35rem] lg:leading-[1.02]">
+          <h1 className="mt-8 font-syne text-[2.35rem] font-extrabold leading-[1.06] tracking-[-0.06em] text-[var(--c-text)] sm:text-5xl md:text-6xl lg:text-[4.35rem] lg:leading-[1.02]">
             <span className="block">
               The{' '}
               <span className="text-[var(--c-strike)] line-through decoration-2 decoration-[var(--c-strike)]">
@@ -257,10 +257,10 @@ export default function LandingPage() {
         as="section"
       >
         <div className="mx-auto max-w-6xl">
-          <p className="text-xs font-bold uppercase tracking-[0.2em] text-[var(--c-accent)]">
+          <p className="text-xs font-bold uppercase tracking-[0.12em] text-[var(--c-accent)]">
             Sound familiar?
           </p>
-          <h2 className="mt-4 max-w-3xl font-syne text-3xl font-extrabold leading-tight tracking-[-0.04em] md:text-4xl lg:text-[2.75rem]">
+          <h2 className="mt-4 max-w-3xl font-syne text-3xl font-extrabold leading-tight tracking-[-0.05em] md:text-4xl lg:text-[2.75rem]">
             You&apos;re not behind. You&apos;ve just been looking in the wrong
             place.
           </h2>
@@ -274,7 +274,7 @@ export default function LandingPage() {
                 <span className="text-2xl" aria-hidden>
                   {c.icon}
                 </span>
-                <h3 className="mt-4 font-syne text-lg font-extrabold tracking-tight text-[var(--c-text)] md:text-xl">
+                <h3 className="mt-4 font-syne text-lg font-extrabold tracking-[-0.04em] text-[var(--c-text)] md:text-xl">
                   {c.title}
                 </h3>
                 <p className="mt-3 text-sm leading-relaxed text-[var(--c-text-muted)] md:text-[15px]">
@@ -289,10 +289,10 @@ export default function LandingPage() {
       <RevealSection className="px-5 py-20 md:px-8 md:py-28" as="section">
         <div className="mx-auto grid max-w-6xl gap-14 md:grid-cols-2 md:gap-16 md:items-start lg:gap-20">
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.2em] text-[var(--c-accent)]">
+            <p className="text-xs font-bold uppercase tracking-[0.12em] text-[var(--c-accent)]">
               Your path forward
             </p>
-            <h2 className="mt-4 font-syne text-3xl font-extrabold leading-tight tracking-[-0.04em] md:text-4xl">
+            <h2 className="mt-4 font-syne text-3xl font-extrabold leading-tight tracking-[-0.05em] md:text-4xl">
               The VA economy is{' '}
               <span className="text-[var(--c-accent)]">booming</span> — and
               it&apos;s made for you.
@@ -322,7 +322,7 @@ export default function LandingPage() {
                   key={label}
                   className="bg-[var(--c-bg)] p-5 md:p-6"
                 >
-                  <p className="font-syne text-xl font-extrabold tracking-tight text-[var(--c-accent)] md:text-2xl">
+                  <p className="font-syne text-xl font-extrabold tracking-[-0.04em] text-[var(--c-accent)] md:text-2xl">
                     {stat}
                   </p>
                   <p className="mt-1 text-xs text-[var(--c-text-faint)] md:text-sm">
@@ -364,7 +364,7 @@ export default function LandingPage() {
                   <IconCheck className="h-5 w-5" />
                 </span>
                 <div>
-                  <p className="font-syne text-base font-extrabold tracking-tight text-[var(--c-text)] md:text-lg">
+                  <p className="font-syne text-base font-extrabold tracking-[-0.04em] text-[var(--c-text)] md:text-lg">
                     {f.title}
                   </p>
                   <p className="mt-2 text-sm leading-relaxed text-[var(--c-text-muted)]">
@@ -382,10 +382,10 @@ export default function LandingPage() {
         as="section"
       >
         <div className="mx-auto max-w-6xl">
-          <p className="text-xs font-bold uppercase tracking-[0.2em] text-[var(--c-accent)]">
+          <p className="text-xs font-bold uppercase tracking-[0.12em] text-[var(--c-accent)]">
             This is for you if...
           </p>
-          <h2 className="mt-4 max-w-3xl font-syne text-3xl font-extrabold leading-tight tracking-[-0.04em] md:text-4xl">
+          <h2 className="mt-4 max-w-3xl font-syne text-3xl font-extrabold leading-tight tracking-[-0.05em] md:text-4xl">
             Built for Filipino young people who are ready to take control.
           </h2>
           <p className="mt-4 max-w-2xl text-[15px] leading-relaxed text-[var(--c-text-muted)] md:text-base">
@@ -403,7 +403,7 @@ export default function LandingPage() {
                 <span className="text-2xl" aria-hidden>
                   {p.icon}
                 </span>
-                <h3 className="mt-4 font-syne text-lg font-extrabold tracking-tight md:text-xl">
+                <h3 className="mt-4 font-syne text-lg font-extrabold tracking-[-0.04em] md:text-xl">
                   {p.title}
                 </h3>
                 <p className="mt-3 text-sm leading-relaxed text-[var(--c-text-muted)] md:text-[15px]">
@@ -424,10 +424,10 @@ export default function LandingPage() {
         id="curriculum"
       >
         <div className="mx-auto max-w-6xl">
-          <p className="text-xs font-bold uppercase tracking-[0.2em] text-[var(--c-accent)]">
+          <p className="text-xs font-bold uppercase tracking-[0.12em] text-[var(--c-accent)]">
             The curriculum
           </p>
-          <h2 className="mt-4 font-syne text-3xl font-extrabold leading-tight tracking-[-0.04em] md:text-4xl">
+          <h2 className="mt-4 font-syne text-3xl font-extrabold leading-tight tracking-[-0.05em] md:text-4xl">
             Everything you need. Nothing you don&apos;t.
           </h2>
           <p className="mt-4 max-w-2xl text-[15px] leading-relaxed text-[var(--c-text-muted)] md:text-base">
@@ -445,7 +445,7 @@ export default function LandingPage() {
                   {m.n}
                 </span>
                 <div className="min-w-0 flex-1">
-                  <h3 className="font-syne text-lg font-extrabold tracking-tight text-[var(--c-text)] md:text-xl">
+                  <h3 className="font-syne text-lg font-extrabold tracking-[-0.04em] text-[var(--c-text)] md:text-xl">
                     {m.title}
                   </h3>
                   <p className="mt-2 text-sm leading-relaxed text-[var(--c-text-muted)] md:text-[15px]">
@@ -478,7 +478,7 @@ export default function LandingPage() {
         as="section"
       >
         <div className="mx-auto max-w-6xl text-center">
-          <h2 className="font-syne text-3xl font-extrabold tracking-[-0.04em] md:text-4xl">
+          <h2 className="font-syne text-3xl font-extrabold tracking-[-0.05em] md:text-4xl">
             Simple process. Real results.
           </h2>
         </div>
@@ -512,7 +512,7 @@ export default function LandingPage() {
               >
                 {s.step}
               </span>
-              <h3 className="relative -mt-4 font-syne text-lg font-extrabold tracking-tight text-[var(--c-text)] md:text-xl">
+              <h3 className="relative -mt-4 font-syne text-lg font-extrabold tracking-[-0.04em] text-[var(--c-text)] md:text-xl">
                 {s.title}
               </h3>
               <p className="mt-3 text-sm leading-relaxed text-[var(--c-text-muted)] md:text-[15px]">
@@ -530,10 +530,10 @@ export default function LandingPage() {
       >
         <div className="mx-auto grid max-w-6xl gap-14 md:grid-cols-2 md:items-start">
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.2em] text-[var(--c-accent)]">
+            <p className="text-xs font-bold uppercase tracking-[0.12em] text-[var(--c-accent)]">
               Real earning potential
             </p>
-            <h2 className="mt-4 font-syne text-3xl font-extrabold leading-tight tracking-[-0.04em] md:text-4xl">
+            <h2 className="mt-4 font-syne text-3xl font-extrabold leading-tight tracking-[-0.05em] md:text-4xl">
               Stop trading time for{' '}
               <span className="text-[var(--c-strike)] line-through decoration-2 decoration-[var(--c-strike)]">
                 minimum wage
@@ -562,7 +562,7 @@ export default function LandingPage() {
           <div className="overflow-hidden rounded-2xl border border-[var(--c-border)]">
             <table className="w-full border-collapse text-left text-sm">
               <thead>
-                <tr className="border-b border-[var(--c-border)] bg-[var(--c-bg-elevated)] text-xs uppercase tracking-wider text-[var(--c-text-faint)]">
+                <tr className="border-b border-[var(--c-border)] bg-[var(--c-bg-elevated)] text-xs uppercase tracking-wide text-[var(--c-text-faint)]">
                   <th className="px-4 py-3 font-semibold md:px-5">Role</th>
                   <th className="hidden px-4 py-3 font-semibold sm:table-cell md:px-5">
                     Focus
@@ -636,7 +636,7 @@ export default function LandingPage() {
         as="section"
       >
         <div className="mx-auto max-w-6xl text-center">
-          <h2 className="font-syne text-3xl font-extrabold tracking-[-0.04em] md:text-4xl">
+          <h2 className="font-syne text-3xl font-extrabold tracking-[-0.05em] md:text-4xl">
             They were exactly where you are now.
           </h2>
         </div>
@@ -688,10 +688,10 @@ export default function LandingPage() {
         id="pricing"
       >
         <div className="mx-auto max-w-6xl text-center">
-          <p className="text-xs font-bold uppercase tracking-[0.2em] text-[var(--c-accent)]">
+          <p className="text-xs font-bold uppercase tracking-[0.12em] text-[var(--c-accent)]">
             Enrollment plans
           </p>
-          <h2 className="mt-4 font-syne text-3xl font-extrabold tracking-[-0.04em] md:text-4xl">
+          <h2 className="mt-4 font-syne text-3xl font-extrabold tracking-[-0.05em] md:text-4xl">
             Invest in yourself once. Earn forever.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-[15px] text-[var(--c-text-muted)] md:text-base">
@@ -817,7 +817,7 @@ export default function LandingPage() {
         id="faq"
       >
         <div className="mx-auto max-w-6xl text-center">
-          <h2 className="font-syne text-3xl font-extrabold tracking-[-0.04em] md:text-4xl">
+          <h2 className="font-syne text-3xl font-extrabold tracking-[-0.05em] md:text-4xl">
             Questions people ask before enrolling.
           </h2>
         </div>
@@ -831,7 +831,7 @@ export default function LandingPage() {
         as="section"
       >
         <div className="mx-auto max-w-3xl">
-          <h2 className="font-syne text-3xl font-extrabold leading-tight tracking-[-0.04em] text-[var(--c-text)] md:text-4xl lg:text-5xl">
+          <h2 className="font-syne text-3xl font-extrabold leading-tight tracking-[-0.05em] text-[var(--c-text)] md:text-4xl lg:text-5xl">
             The call center said no.
             <span className="mt-2 block text-[var(--c-accent)]">
               Your clients are waiting.

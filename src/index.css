@@ -35,6 +35,14 @@ body {
   color: var(--c-text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  font-stretch: 100%;
+  font-optical-sizing: auto;
+}
+
+.font-syne {
+  font-synthesis: none;
+  font-stretch: 100%;
 }
 
 #root {

@@ -2,7 +2,7 @@ export function Footer() {
   return (
     <footer className="border-t border-[var(--c-border)] bg-[var(--c-bg)] px-5 py-14 md:px-8">
       <div className="mx-auto flex max-w-6xl flex-col gap-10 md:flex-row md:items-center md:justify-between">
-        <a href="#" className="font-syne text-xl font-extrabold tracking-tight">
+        <a href="#" className="font-syne text-xl font-extrabold tracking-[-0.03em]">
           <span className="text-[var(--c-text)]">Online</span>
           <span className="text-[var(--c-accent)]">Projects</span>
         </a>

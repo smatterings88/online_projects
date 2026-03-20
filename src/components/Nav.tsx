@@ -27,7 +27,7 @@ export function Nav() {
       ].join(' ')}
     >
       <div className="mx-auto flex h-[4.25rem] max-w-6xl items-center justify-between px-5 md:px-8">
-        <a href="#" className="font-syne text-xl font-extrabold tracking-tight">
+        <a href="#" className="font-syne text-xl font-extrabold tracking-[-0.03em]">
           <span className="text-[var(--c-text)]">Online</span>
           <span className="text-[var(--c-accent)]">Projects</span>
         </a>
