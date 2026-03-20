@@ -66,7 +66,7 @@ export function FAQ() {
               ].join(' ')}
             >
               <div className="overflow-hidden">
-                <p className="px-4 pb-4 text-sm leading-relaxed text-[var(--c-text-muted)] md:text-[15px]">
+                <p className="px-4 pb-4 text-sm font-normal leading-[1.75] text-[var(--c-text-muted)] md:text-[15px]">
                   {a}
                 </p>
               </div>

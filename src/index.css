@@ -1,8 +1,8 @@
 @import 'tailwindcss';
 
 @theme {
-  --font-syne: 'Syne', ui-sans-serif, system-ui, sans-serif;
-  --font-dm: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-syne: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-dm: 'Inter', ui-sans-serif, system-ui, sans-serif;
 }
 
 :root {
@@ -30,11 +30,12 @@ html {
 
 body {
   margin: 0;
-  font-family: var(--font-dm), 'DM Sans', system-ui, sans-serif;
+  font-family: var(--font-dm), 'Inter', system-ui, sans-serif;
   background: var(--c-bg);
   color: var(--c-text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.75;
   font-synthesis: none;
   font-stretch: 100%;
   font-optical-sizing: auto;
@@ -43,6 +44,12 @@ body {
 .font-syne {
   font-synthesis: none;
   font-stretch: 100%;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.03em;
 }
 
 #root {

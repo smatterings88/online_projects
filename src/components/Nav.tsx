@@ -49,7 +49,7 @@ export function Nav() {
 
         <a
           href="#pricing"
-          className="rounded-full bg-[var(--c-accent)] px-5 py-2.5 text-sm font-semibold text-[var(--c-bg)] transition-transform hover:scale-[1.02] active:scale-[0.98]"
+          className="rounded-full bg-[var(--c-accent)] px-5 py-2.5 text-sm font-bold font-syne tracking-[0em] text-[var(--c-bg)] transition-transform hover:scale-[1.02] active:scale-[0.98]"
         >
           Enroll Now
         </a>
